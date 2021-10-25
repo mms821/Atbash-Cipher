@@ -1,0 +1,139 @@
+package main;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		atbashCiph("apple");
+		
+
+		
+	}
+	
+
+	
+	public static void atbashCiph(String pp) {
+		
+		char[] dd = pp.toCharArray();
+		
+		String rr = "";
+		
+		for(int i = 0; i < dd.length; i++) {
+			
+			
+			if(dd[i] == 'a') {
+				dd[i] = 'z';
+			}else if( dd[i] == 'b') {
+				dd[i] = 'y';
+			}else if( dd[i] == 'c') {
+				dd[i] = 'x';
+			}else if( dd[i] == 'd') {
+				dd[i] = 'w';
+			}else if( dd[i] == 'e') {
+				dd[i] = 'v';
+			}else if( dd[i] == 'f') {
+				dd[i] = 'u';
+			}else if( dd[i] == 'g') {
+				dd[i] = 't';
+			}else if( dd[i] == 'h') {
+				dd[i] = 's';
+			}else if( dd[i] == 'i') {
+				dd[i] = 'r';
+			}else if( dd[i] == 'j') {
+				dd[i] = 'q';
+			}else if( dd[i] == 'k') {
+				dd[i] = 'p';
+			}else if( dd[i] == 'l') {
+				dd[i] = 'o';
+			}else if( dd[i] == 'm') {
+				dd[i] = 'n';
+			}else if( dd[i] == 'n') {
+				dd[i] = 'm';
+			}else if( dd[i] == 'o') {
+				dd[i] = 'l';
+			}else if( dd[i] == 'p') {
+				dd[i] = 'k';
+			}else if( dd[i] == 'q') {
+				dd[i] = 'j';
+			}else if( dd[i] == 'r') {
+				dd[i] = 'i';
+			}else if( dd[i] == 's') {
+				dd[i] = 'h';
+			}else if( dd[i] == 't') {
+				dd[i] = 'g';
+			}else if( dd[i] == 'u') {
+				dd[i] = 'f';
+			}else if( dd[i] == 'v') {
+				dd[i] = 'e';
+			}else if( dd[i] == 'w') {
+				dd[i] = 'd';
+			}else if( dd[i] == 'x') {
+				dd[i] = 'c';
+			}else if( dd[i] == 'y') {
+				dd[i] = 'b';
+			}else if( dd[i] == 'z') {
+				dd[i] = 'a';
+			}else if( dd[i] == 'A') {
+				dd[i] = 'Z';
+			}else if( dd[i] == 'B') {
+				dd[i] = 'Y';
+			}else if( dd[i] == 'C') {
+				dd[i] = 'X';
+			}else if( dd[i] == 'D') {
+				dd[i] = 'W';
+			}else if( dd[i] == 'E') {
+				dd[i] = 'V';
+			}else if( dd[i] == 'F') {
+				dd[i] = 'U';
+			}else if( dd[i] == 'G') {
+				dd[i] = 'T';
+			}else if( dd[i] == 'H') {
+				dd[i] = 'S';
+			}else if( dd[i] == 'I') {
+				dd[i] = 'R';
+			}else if( dd[i] == 'J') {
+				dd[i] = 'Q';
+			}else if( dd[i] == 'K') {
+				dd[i] = 'P';
+			}else if( dd[i] == 'L') {
+				dd[i] = 'O';
+			}else if( dd[i] == 'M') {
+				dd[i] = 'N';
+			}else if( dd[i] == 'N') {
+				dd[i] = 'M';
+			}else if( dd[i] == 'O') {
+				dd[i] = 'L';
+			}else if( dd[i] == 'P') {
+				dd[i] = 'K';
+			}else if( dd[i] == 'Q') {
+				dd[i] = 'J';
+			}else if( dd[i] == 'R') {
+				dd[i] = 'I';
+			}else if( dd[i] == 'S') {
+				dd[i] = 'H';
+			}else if( dd[i] == 'T') {
+				dd[i] = 'G';
+			}else if( dd[i] == 'U') {
+				dd[i] = 'F';
+			}else if( dd[i] == 'V') {
+				dd[i] = 'E';
+			}else if( dd[i] == 'W') {
+				dd[i] = 'D';
+			}else if( dd[i] == 'X') {
+				dd[i] = 'C';
+			}else if( dd[i] == 'Y') {
+				dd[i] = 'B';
+			}else if( dd[i] == 'Z') {
+				dd[i] = 'A';
+			}
+			
+			rr += dd[i];
+		}
+		
+		String gg = rr.toString();
+		
+		System.out.println(gg);
+		
+	}
+
+}
